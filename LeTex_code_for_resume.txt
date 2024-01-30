@@ -1,0 +1,114 @@
+\documentclass{article}
+
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.3in] {geometry}
+\usepackage{hyperref}
+
+
+\titleformat{\section}
+{\huge\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}[runin] 
+{\bfseries\large}
+{\hspace{0in}$\bullet$}
+{0em}
+{}
+
+\titleformat{\subsubsection}
+{\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing
+{\subsubsection}
+{1em}
+{0em}
+{0em}
+
+\renewcommand
+{\maketitle}
+{\begin{center}
+    {\huge\bfseries\theauthor}
+\vspace{.25em}
+    
+    dadh0006@algonquinlive.com, +1 343-558-9692
+    
+\end{center}}
+
+
+\usepackage{graphicx} % Required for inserting images
+\begin{document}
+
+\title{Tilak resume 2}
+\author{Tilakkumar Dadhania}
+\date{January 2024}
+
+\maketitle
+\hfill %
+\href{https://www.linkedin.com/in/tilakkumar-dadhania-911a341a6/}{Linkedin}
+
+\section{Course Projects}
+\subsection{Database Design}
+\subsubsection{Designed a relational database for a restaurant in PostgreSQL, consisting of 7 tables for efficient bill generation
+and management.}
+\subsection{Egg Grade Requirements}
+\subsubsection{Java project to determine the grade of eggs according to Canadian government standards.}
+
+\section{Courses Completed}
+\subsection{Database System}
+\subsubsection{PostgreSQL, Relational Database Design}
+\subsection{Programming in Java}
+\subsubsection{Object-Oriented Programming}
+\subsection{Linear Programming}
+\subsubsection{Trigonometry, Binary Numbers}
+
+\section{Personal Projects}
+\subsection{Youtube Clone}
+\hfill %
+\href{https://github.com/DadhaniaTilak/Website-youtube-public}{Github link}
+\subsubsection{Created a static frontend clone of the YouTube website using HTML and CSS.}
+\subsection{Codechef}
+\hfill %
+\href{https://www.codechef.com/users/tilakdadhania}{Morningstar}
+\subsubsection{Coder on this platform since 2022}
+\subsection{Letex Resume}
+\hfill %
+\href{https://github.com/DadhaniaTilak/Resume}{Github}
+\subsubsection{Made my own resume using Letex From scratch}
+
+\section{Skills}
+\subsection{Operating Systems}
+\subsubsection{Windows, Mac, Linux}
+\subsection{Programming Languages}
+\subsubsection{Python, Java, C++, C, SQL, LeTeX}
+\subsection{Web Development}
+\subsubsection{HTML, CSS, JavaScript}
+\subsection{Version Control Tools}
+\subsubsection{Git, Github}
+
+\section{Education}
+\subsection{Algonquin College}
+\hfill %
+{Ottawa 2023-present}
+\subsubsection{Advanced Diploma in Computer Enginering Technology-Computing Science; Current GPA: 3.6/4}
+\subsection{G H Patel College of Technology}
+\hfill %
+{(1 year completed) Gujarat, India: Sep 2022-Aug 2023}
+\subsubsection{Bachelors in Computer Science ; GPA:8/10}
+\subsection{Ashadeep High Secondary School}
+\hfill %
+{Gujarat, India: Sep 2020-Aug 2022}
+\subsubsection{12th Grade; percentile: 90.33}
+
+
+\section{Volunteering}
+\subsection{Tech fest at G H Patel College}
+\subsubsection{Ignite 2023}
+
+\end{document}
